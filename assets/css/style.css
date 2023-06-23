@@ -111,6 +111,7 @@ p {
   background-color: #647BFF;
 }
 
+
 #sidebar .nav .nav-item #nav-about{
   top: 150px;
   background-color: #04061D;
@@ -120,6 +121,7 @@ p {
   left: 0;
   background-color: #647BFF;
 }
+
 
 #sidebar .nav .nav-item #nav-resume{
   top: 210px;
@@ -372,6 +374,11 @@ p {
 
 .about .fst-italic span{
   font-weight: 500;
+  color: #a9b4f1;
+}
+
+.about .job-cat span{
+  font-weight: bolder;
   color: #a9b4f1;
 }
 
@@ -658,7 +665,7 @@ h3.resume-title span {
 }
 
 .skills .design-skills .row .card:nth-child(2) svg circle:nth-child(2) {
-  stroke-dashoffset: calc(440 - (440 * 60) / 100);
+  stroke-dashoffset: calc(440 - (440 * 50) / 100);
   stroke: #647BFF;
 }
 
@@ -668,7 +675,7 @@ h3.resume-title span {
 }
 
 .skills .design-skills .row .card:nth-child(4) svg circle:nth-child(2) {
-  stroke-dashoffset: calc(440 - (440 * 60) / 100);
+  stroke-dashoffset: calc(440 - (440 * 50) / 100);
   stroke: #647BFF;
 }
 
@@ -795,9 +802,7 @@ h3.resume-title span {
 /*--------------------------------------------------------------
 # References
 --------------------------------------------------------------*/
-.references #quote img{
-  width: 50px;
-}
+
 .references .author-img img {
 	width: 70px !important;
 	height: auto;
@@ -816,7 +821,9 @@ h3.resume-title span {
 .references #quote{
   color: #ccc;
 }
-
+.references #quote{
+  border: 1px solid #191919;
+}
 .references #quote:hover {
   transform: translateY(-5px);
   background: #111430;
